@@ -1,40 +1,175 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Modhe Almelihi</title>
     <meta name="google-site-verification" content="n12XGbwYZXdypbC378zGnTEJzspBiSIrQrm1OTh8Dhc" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
 </head>
-
 <body>
-    <br>
-<center>
-    <h2>mnalmelihi's GitHub Repositories</h2>
-</center>
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
 
-<table align='center' border='1' width='70%'>
-    <tr>
-        <th>Title</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td align='center'><a href='https://github.com/mnalmelihi/udacity-dand-investigate-a-dataset-no-show-appointments' target='blank'>Investigate a Dataset (Medical Appointment No Shows)</a></td>
-        <td>This was the second project in Data Analyst Nanodegree from Udacity.
-            In this project, I analyzed Medical Appointment No Shows Dataset and communicated my findings about it using Python libraries NumPy, pandas, Matplotlib, and seaborn.
-            The dataset collects information from 110k medical appointments in Brazil and is focused on the question of whether or not patients show up for their appointment.</td>
-    </tr>
-    <tr>
-        <td align='center'><a href='https://github.com/mnalmelihi/udacity-pdsnd-explore-us-bikeshare-data' target='blank'>Explore US Bikeshare Data</a></td>
-        <td>This was the second project in Programming for Data Science with Python Nanodegree from Udacity.
-            In this project, Python was used to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington.
-            Interesting questions about the data were answered by computing descriptive statistics.</td>
-    </tr>
-    <tr>
-        <td align='center'><a href='https://github.com/mnalmelihi/udacity-pdsnd-investigate-a-relational-database' target='blank'>Investigate a Relational Database</a></td>
-        <td>This was the first project in Programming for Data Science with Python Nanodegree from Udacity.
-             In this project, SQL has been used to explore a database related to movie rentals and
-             answer interesting questions about the database. Also, visualizations were created to showcase the output of the queries.</td>
-    </tr>
-</table>
+					<div class="table">
+						<div class="row header">
+							<div class="cell">
+								Project Title
+							</div>
+							<div class="cell">
+								Description
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="cell">
+								<a href='https://github.com/mnalmelihi/udacity-dand-communicate-data-findings-ford-GoBike' target='blank'>
+                                    Communicate Data Findings<br>(Ford GoBike System Data in 2019)
+                                </a>
+							</div>
+							<div class="cell">
+                                This was the fifth project in
+                                <a href='https://www.udacity.com/course/data-analyst-nanodegree--nd002?utm_source=gsem_brand&utm_medium=ads_n&utm_campaign=8826748976_c&utm_term=88603501643&utm_keyword=%2Bdata%20%2Banalyst%20%2Bnanodegree_b&gclid=CjwKCAjwqML6BRAHEiwAdquMnTb1SFCIW0CYnFkFOv0tia9w2dSGATHJAv-ApB3ZEY_-oOPYn9IS8hoCWMwQAvD_BwE'
+                                target='blank'>
+                                    Data Analyst Nanodegree from Udacity.
+                                </a>
+                                This project has two parts that demonstrate the importance and value of data visualization techniques in the data analysis process.
+                                In the first part, Python visualization libraries were used to systematically explore a selected dataset,
+                                starting from plots of single variables and building up to plots of multiple variables.
+                                In the second part, a short presentation was produced that illustrates interesting properties, trends, and relationships that were
+                                discovered in the selected dataset. The primary method of conveying the findings was through transforming the exploratory visualizations
+                                from the first part into polished, explanatory visualizations.
+							</div>
+						</div>
+
+                        <div class="row">
+							<div class="cell">
+								<a href='https://github.com/mnalmelihi/udacity-dand-wrangle-and-analyze-data' target='blank'>
+                                    Wrangle and Analyze Data
+                                </a>
+							</div>
+							<div class="cell">
+                                This was the fourth project in
+                                <a href='https://www.udacity.com/course/data-analyst-nanodegree--nd002?utm_source=gsem_brand&utm_medium=ads_n&utm_campaign=8826748976_c&utm_term=88603501643&utm_keyword=%2Bdata%20%2Banalyst%20%2Bnanodegree_b&gclid=CjwKCAjwqML6BRAHEiwAdquMnTb1SFCIW0CYnFkFOv0tia9w2dSGATHJAv-ApB3ZEY_-oOPYn9IS8hoCWMwQAvD_BwE'
+                                target='blank'>
+                                    Data Analyst Nanodegree from Udacity.
+                                </a>
+                                In this project, I will be wrangling and analyzing the tweet archive of Twitter user <a href='https://twitter.com/dog_rates' target='blank'>@dog_rates</a>,
+                                also known as WeRateDogs. In addition to the Twitter archive file, two pieces of data needs to be gathered:<br><br>
+                                - The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.)
+                                is present in each tweet according to a neural network. This file (image_predictions.tsv)
+                                is hosted on Udacity's servers and should be downloaded programmatically.<br><br>
+                                - Each tweet's retweet count and favorite count at minimum, and any additional interesting data via Twitter's API.
+							</div>
+						</div>
+
+                        <div class="row">
+                            <div class="cell">
+                                <a href='https://github.com/mnalmelihi/udacity-dand-analyze-AB-test-results' target='blank'>
+                                    Analyze A/B Test Results
+                                </a>
+                            </div>
+                            <div class="cell">
+                                This was the third project in
+                                <a href='https://www.udacity.com/course/data-analyst-nanodegree--nd002?utm_source=gsem_brand&utm_medium=ads_n&utm_campaign=8826748976_c&utm_term=88603501643&utm_keyword=%2Bdata%20%2Banalyst%20%2Bnanodegree_b&gclid=CjwKCAjwqML6BRAHEiwAdquMnTb1SFCIW0CYnFkFOv0tia9w2dSGATHJAv-ApB3ZEY_-oOPYn9IS8hoCWMwQAvD_BwE'
+                                target='blank'>
+                                    Data Analyst Nanodegree from Udacity.
+                                </a>
+                                In this project, I will be working to understand the results of an A/B test run by an e-commerce website.
+                                The company has developed a new web page in order to try and increase the number of users who "convert"
+                                meaning the number of users who decide to pay for the company's product. The goal is to work through the notebook
+                                to help the company understand if they should implement this new page, keep the old page, or perhaps run
+                                the experiment longer to make their decision.
+                            </div>
+                        </div>
+
+                        <div class="row">
+							<div class="cell">
+								<a href='https://github.com/mnalmelihi/udacity-dand-investigate-a-dataset-no-show-appointments' target='blank'>
+                                    Investigate a Dataset<br>(Medical Appointment No Shows)
+                                </a>
+							</div>
+							<div class="cell">
+                                This was the second project in
+                                <a href='https://www.udacity.com/course/data-analyst-nanodegree--nd002?utm_source=gsem_brand&utm_medium=ads_n&utm_campaign=8826748976_c&utm_term=88603501643&utm_keyword=%2Bdata%20%2Banalyst%20%2Bnanodegree_b&gclid=CjwKCAjwqML6BRAHEiwAdquMnTb1SFCIW0CYnFkFOv0tia9w2dSGATHJAv-ApB3ZEY_-oOPYn9IS8hoCWMwQAvD_BwE'
+                                target='blank'>
+                                    Data Analyst Nanodegree from Udacity.
+                                </a>
+                                In this project, I analyzed Medical Appointment No Shows Dataset and communicated my findings about it using Python libraries
+                                NumPy, pandas, Matplotlib, and seaborn. The dataset collects information from 110k medical appointments in Brazil
+                                and is focused on the question of whether or not patients show up for their appointment.
+							</div>
+						</div>
+
+                        <div class="row">
+                            <div class="cell">
+                                <a href='https://github.com/mnalmelihi/udacity-pdsnd-explore-us-bikeshare-data' target='blank'>
+                                    Explore US Bikeshare Data
+                                </a>
+                            </div>
+                            <div class="cell">
+                                This was the second project in
+                                <a href='https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104?utm_source=gsem_brand&utm_medium=ads_n&utm_campaign=8826748976_c&utm_term=88603499923&utm_keyword=%2Budacity%20%2Bprogramming%20%2Bdata%20%2Bscience_b&gclid=CjwKCAjwqML6BRAHEiwAdquMnYbWoOm2cuAOBxvGIex9WUt6zGtzlp1M8LwLDkjV0-GmxJJhIcMowxoCxXMQAvD_BwE'
+                                target='blank'>
+                                    Programming for Data Science with Python Nanodegree from Udacity.
+                                </a>
+                                In this project, Python was used to explore data related to bike share systems for
+                                three major cities in the United States: Chicago, New York City, and Washington.
+                                Interesting questions about the data were answered by computing descriptive statistics.
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="cell">
+                                <a href='https://github.com/mnalmelihi/udacity-pdsnd-investigate-a-relational-database' target='blank'>
+                                    Investigate a Relational Database
+                                </a>
+                            </div>
+                            <div class="cell">
+                                This was the first project in
+                                <a href='https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104?utm_source=gsem_brand&utm_medium=ads_n&utm_campaign=8826748976_c&utm_term=88603499923&utm_keyword=%2Budacity%20%2Bprogramming%20%2Bdata%20%2Bscience_b&gclid=CjwKCAjwqML6BRAHEiwAdquMnYbWoOm2cuAOBxvGIex9WUt6zGtzlp1M8LwLDkjV0-GmxJJhIcMowxoCxXMQAvD_BwE'
+                                target='blank'>
+                                    Programming for Data Science with Python Nanodegree from Udacity.
+                                </a>
+                                In this project, SQL has been used to explore a database related to movie rentals and
+                                answer interesting questions about the database. Also, visualizations were created to showcase the output of the queries.
+                            </div>
+                        </div>
+
+
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
 
 </body>
-
 </html>
